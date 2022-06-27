@@ -6,11 +6,11 @@ import Accordion from 'react-bootstrap/Accordion';
 
 const FAQComponent = () => {
     return (
-        <div>
+        <div className='faqPage'>
             Foire aux questions
             <Accordion>
   <Accordion.Item eventKey="0">
-    <Accordion.Header>Netflix, qu'est-ce que c'est ?</Accordion.Header>
+    <Accordion.Header >Netflix, qu'est-ce que c'est ?</Accordion.Header>
     <Accordion.Body>
       Netflix est un service de streaming qui propose une vaste sélection TV, films, animes, documentaires et autres programmes primés sur des milliers d'appareils connectés à Internet.<br/>
       Regardez tout ce que vous voulez, quand vous voulez, sans publicité et à un tarif mensuel très attractif. Découvrez de nouveau films et séries TV chaque semaine, il y en a pour tous les goûts !

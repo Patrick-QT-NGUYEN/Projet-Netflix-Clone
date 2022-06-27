@@ -1,5 +1,6 @@
 import React from 'react';
 import FAQComponent from '../../components/FAQComponent/FAQComponent';
+import PubComponent from '../../components/PubComponent/PubComponent';
 
 import './HomeView.css';
 
@@ -22,6 +23,7 @@ const HomeView = () => {
                     </div>
                 </div>
             </div>
+            <PubComponent/>
             <FAQComponent/>
         </div>
     );
