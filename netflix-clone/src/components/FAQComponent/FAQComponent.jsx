@@ -8,7 +8,7 @@ const FAQComponent = () => {
     return (
         <div className='faqPage'>
             Foire aux questions
-            <Accordion className='faq'>
+            <Accordion>
   <Accordion.Item eventKey="0">
     <Accordion.Header >Netflix, qu'est-ce que c'est ?</Accordion.Header>
     <Accordion.Body>

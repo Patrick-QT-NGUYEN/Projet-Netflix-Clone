@@ -10,7 +10,7 @@ const SignUp1 = () => {
     <h5 className="card-title">ETAPE 1 SUR 3</h5>
     <h1 className="card-title"> Complétez la configuration de votre compte </h1>
     <p className="card-text">Netflix est personnalisé selon vos <br/> goûts. Créez un mot de passe pour <br/> regarder Netflix quand vous voulez <br/>, où vous voulez.</p>
-    <a href="#" className="btn btn-danger form-control">Suivant</a>
+    <a href="/SignUp2" className="btn btn-danger form-control">Suivant</a>
   </div>
 </div>
     );
