@@ -3,17 +3,17 @@ import './Signin.css';
 
 const Signin = () => {
     return (
-        <body>
-        <div>
-            <img src="../../../public/img/netflix_logo.png" class="img"></img>
-            <h2>S'identifier</h2>
-            <input placeholder='E-mail ou numéro de téléphone' type="text"/><br />
-            <input placeholder='Mot de passe' type="password"/><br />
-            <button>S'identifier</button>
-            <h4>Nouveau sur Netflix ?<a>Inscrivez-vous</a></h4>
-            
-           
-        </div>
+        <body className='Corps'>
+            <div>
+                <div className='place'>
+                    <h2 className='Identification'>S'identifier</h2>
+                    <input className='Texte' placeholder='E-mail ou numéro de téléphone' type="text" /><br />
+                    <input className='Texte' placeholder='Mot de passe' type="password" /><br />
+                    <button className='Bouton'>S'identifier</button><br />
+                    <h3 className='nvx'>Nouveau sur Netflix ?<a className='Inscription'> Inscrivez-vous ! </a></h3>
+                    <h3 className='nvx'>Cette page est protégée par Google reCAPTCHA. </h3>
+                </div>
+            </div>
         </body>
     );
 };

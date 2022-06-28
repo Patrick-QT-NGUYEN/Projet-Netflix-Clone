@@ -18,9 +18,7 @@ const NavBarComponent = () => {
         <div>
             <BrowserRouter>
                 <div id="navbar">
-                    <button className='bouton'>
-                        <Link to="/">Home</Link>
-                    </button>
+                        <Link className='btn btn-secondary' to="/">Home</Link>
                     <button className='bouton'>
                         <Link to="/SignIn">S'identifier</Link>
                     </button>
