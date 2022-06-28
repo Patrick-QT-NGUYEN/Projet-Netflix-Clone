@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import FAQComponent from '../../components/FAQComponent/FAQComponent';
 import PubComponent from '../../components/PubComponent/PubComponent';
 import FooterComponent from '../../components/FooterComponent/FooterComponent';
@@ -7,6 +7,9 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import './HomeView.css';
 
 const HomeView = () => {
+    useEffect(() => {
+        document.title = "Netflix clone"
+    }, [])
     return (
         <div>
             <div className="loginScreen">
@@ -18,9 +21,11 @@ const HomeView = () => {
                         <div className="loginScreen_input">
                             <form>
                                 <input type="email" placeholder="Adresse email" className="btn_input_login" />
-                                <button className="btn_button_login">
-                                    Commencez
-                                </button>
+                                <a href="/SignUp1">
+                                    <button className="btn_button_login">
+                                        Commencez
+                                    </button>
+                                </a>
                             </form>
                         </div>
                     </div>

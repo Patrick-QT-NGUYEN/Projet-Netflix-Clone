@@ -1,8 +1,11 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './SignUp3.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 const SignUp3 = () => {
+    useEffect(() => {
+        document.title = "Sign Up - Step 3"
+    }, [])
     return (
         <div>
             <div className="card configuration">
@@ -15,10 +18,10 @@ const SignUp3 = () => {
                     <br />
                     <div class="form-check">
                         <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" />
-                            <label class="form-check-label" for="flexCheckChecked">
-                                Oui, envoyez-moi les offres spéciales de Netflix par email. <br />
-                            </label>
-                            
+                        <label class="form-check-label" for="flexCheckChecked">
+                            Oui, envoyez-moi les offres spéciales de Netflix par email. <br />
+                        </label>
+
                     </div>
                     <a href="/SignUp4" className="btn btn-danger form-control">Suivant</a>
                 </div>

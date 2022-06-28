@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './SignUp7.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {
@@ -6,6 +6,9 @@ import {
 } from 'react-router-dom';
 
 const SignUp7 = () => {
+    useEffect(() => {
+        document.title = "Sign Up - Step 4"
+    }, [])
     return (
         <div className="card configuration">
             <div className="card-body">

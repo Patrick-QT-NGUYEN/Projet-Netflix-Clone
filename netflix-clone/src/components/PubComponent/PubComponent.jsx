@@ -14,7 +14,7 @@ const PubComponent = () => {
                 </div>
                 <div class="p-2 flex-fill col-4">
                     <img src="../../../../img/Netflix_tv.png"
-                        alt='Netflix TV' className='image' />
+                        alt='Netflix TV' className='imagePub' />
                 </div>
 
             </div>
@@ -22,7 +22,7 @@ const PubComponent = () => {
             <div class="d-flex">
                 <div class="p-2 flex-fill col-4">
                     <img src="../../../../img/Netflix_mobile.jpg"
-                        alt='Netflix mobile' className='image' />
+                        alt='Netflix mobile' className='imagePub' />
                 </div>
                 <div class="p-2 flex-fill col-4">
                     <h1><b>Téléchargez vos séries préférées pour les regarder hors connexion.</b></h1>
@@ -37,14 +37,14 @@ const PubComponent = () => {
                 </div>
                 <div class="p-2 flex-fill col-4">
                     <img src="../../../../img/Netflix_device-pile.png"
-                        alt='Netflix TV' className='image' />
+                        alt='Netflix TV' className='imagePub' />
                 </div>
             </div>
             <hr className='hrStyle'/>
             <div class="d-flex">
                 <div class="p-2 flex-fill col-4">
                     <img src="../../../../img/Netflix_Jeunesse.png"
-                        alt='Netflix TV' className='image' />
+                        alt='Netflix TV' className='imagePub' />
                 </div>
                 <div class="p-2 flex-fill col-4">
                     <h1><b>Créez des profils pour les enfants.</b></h1>

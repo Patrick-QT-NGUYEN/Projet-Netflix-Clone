@@ -1,4 +1,4 @@
-import React from 'react';
+import React,{useEffect} from 'react';
 import './SignUp1.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {
@@ -6,6 +6,9 @@ import {
 } from 'react-router-dom';
 
 const SignUp1 = () => {
+  useEffect(() => {
+    document.title = "Sign Up - Step 1"
+  }, [])
     return (
 <div className="card configuration">
   <img src="./img/SignUP_Page1_Screens.jpg" className="card-img-top" alt="..." />
