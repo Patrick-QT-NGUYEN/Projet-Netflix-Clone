@@ -6,6 +6,7 @@ import Accordion from 'react-bootstrap/Accordion';
 
 const FAQComponent = () => {
   return (
+    <div className='faqFullPage'>
     <div className='faqPage'>
       <div className='faqTitre'>
         <h1>Foire aux questions</h1>
@@ -63,6 +64,9 @@ const FAQComponent = () => {
         </form>
       </div>
     </div>
+
+    </div>
+
   );
 };
 
