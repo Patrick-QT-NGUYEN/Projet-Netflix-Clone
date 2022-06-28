@@ -1,6 +1,7 @@
 import React from 'react';
 import FAQComponent from '../../components/FAQComponent/FAQComponent';
 import PubComponent from '../../components/PubComponent/PubComponent';
+import FooterComponent from '../../components/FooterComponent/FooterComponent'
 
 import './HomeView.css';
 
@@ -26,6 +27,7 @@ const HomeView = () => {
             </div>
             <PubComponent />
             <FAQComponent />
+            <FooterComponent />
         </div>
     );
 };

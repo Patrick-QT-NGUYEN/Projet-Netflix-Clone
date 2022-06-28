@@ -1,13 +1,19 @@
+.faqFullPage{
+    background-color: black;
+    position: relative;
+}
+
+
 .faqPage{
     width:60%;
     margin: auto;
-    
 }
 
 .faqTitre{
     background-color: black;
     color:white;
     text-align: center;
+    align-items: center;
 }
 
 h1 {
@@ -18,6 +24,7 @@ h1 {
 
 h4 {
     font-size: 1.3rem;
+    color: white;
     font-weight: 400
 }
 
