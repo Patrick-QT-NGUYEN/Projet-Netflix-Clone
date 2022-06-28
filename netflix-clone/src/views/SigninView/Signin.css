@@ -1,7 +1,12 @@
-h1 {
-    margin-left: 20px;
+h2 {
+    margin: center;
     color: white;
     display: flex;
+    flex-direction: column;
+    justify-content: center;    
+    align-items: center;
+    text-align: center;
+    
 }
 
 body {
@@ -11,16 +16,17 @@ body {
 button {
 color: white;
 background-color: red;
-height: 50px;
-width: 50%;
+height: 30px;
+width: 30%;
 
 }
 
 input {
 color: white;
 background-color: gray;
-height: 40px;
-width: 40%;
+height: 30px;
+width: 30%;
 
 }
+
 

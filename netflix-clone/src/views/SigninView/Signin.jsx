@@ -5,7 +5,8 @@ const Signin = () => {
     return (
         <body>
         <div>
-            <h1>S'identifier</h1>
+            <img src="../../../public/img/netflix_logo.png" class="img"></img>
+            <h2>S'identifier</h2>
             <input placeholder='E-mail ou numéro de téléphone' type="text"/><br />
             <input placeholder='Mot de passe' type="password"/><br />
             <button>S'identifier</button>
