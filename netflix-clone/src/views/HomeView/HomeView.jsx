@@ -28,7 +28,6 @@ const HomeView = () => {
             </div>
             <PubComponent />
             <FAQComponent />
-
             <FooterComponent />
 
         </div>
