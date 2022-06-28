@@ -1,7 +1,8 @@
 import React from 'react';
 import FAQComponent from '../../components/FAQComponent/FAQComponent';
 import PubComponent from '../../components/PubComponent/PubComponent';
-import FooterComponent from '../../components/FooterComponent/FooterComponent'
+import FooterComponent from '../../components/FooterComponent/FooterComponent';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 import './HomeView.css';
 

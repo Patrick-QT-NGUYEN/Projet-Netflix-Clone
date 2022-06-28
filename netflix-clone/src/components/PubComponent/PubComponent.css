@@ -1,5 +1,18 @@
-.PubComponent{
+.PubComponent {
     background-color: black;
-    color:white;
+    color: white;
     position: relative;
+    text-align: left;
+    font-family: Helvetica, sans-serif;
+    align-items: center;
+    margin: auto;
+}
+
+.image {
+    width: 400px
+}
+
+.hrStyle {
+    border: 4px solid gray;
+
 }
