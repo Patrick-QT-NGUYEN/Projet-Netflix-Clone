@@ -11,7 +11,7 @@ const FAQComponent = () => {
       <div className='faqTitre'>
         <h1>Foire aux questions</h1>
       </div>
-      <Accordion flush>
+      <Accordion>
         <Accordion.Item eventKey="0">
           <Accordion.Header >Netflix, qu'est-ce que c'est ?</Accordion.Header>
           <Accordion.Body>
@@ -64,7 +64,9 @@ const FAQComponent = () => {
         </form>
       </div>
     </div>
+
     </div>
+
   );
 };
 
