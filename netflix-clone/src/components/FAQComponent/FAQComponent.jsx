@@ -1,5 +1,5 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import './FAQComponent.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Accordion from 'react-bootstrap/Accordion';
@@ -95,9 +95,8 @@ const FAQComponent = () => {
           </form>
         </div>
       </div>
-
+    <br/>
     </div>
-
   );
 };
 
