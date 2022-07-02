@@ -1,5 +1,5 @@
 .loginScreen {
-    position:relative ;
+    /*position:relative ;*/
     height:80vh;
     background: url('../../../public/img/netflix-background.png') center no-repeat;
     background-size: cover;

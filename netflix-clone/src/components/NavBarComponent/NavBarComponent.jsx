@@ -25,7 +25,7 @@ const NavBarComponent = () => {
         <div>
             <BrowserRouter>
                 <div id="navbar">
-                    <div>
+                    <div className="loginScreen_logo">
                         <Link to="/">
                             <img src="./img/netflix_logo.png" alt="Logo Netflix" className="loginScreen_logo" />
                         </Link>
