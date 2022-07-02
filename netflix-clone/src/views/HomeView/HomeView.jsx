@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import FAQComponent from '../../components/FAQComponent/FAQComponent';
 import PubComponent from '../../components/PubComponent/PubComponent';
 import FooterComponent from '../../components/FooterComponent/FooterComponent';
+import {Link} from 'react-router-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import './HomeView.css';
@@ -21,11 +22,11 @@ const HomeView = () => {
                         <div className="loginScreen_input">
                             <form>
                                 <input type="email" placeholder="Adresse email" className="btn_input_login" />
-                                <a href="/SignUp1">
+                                <Link to="/SignUp1">
                                     <button className="btn_button_login">
                                         Commencez
                                     </button>
-                                </a>
+                                </Link>
                             </form>
                         </div>
                     </div>

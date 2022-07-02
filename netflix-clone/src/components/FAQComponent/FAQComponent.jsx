@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 import './FAQComponent.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Accordion from 'react-bootstrap/Accordion';
@@ -86,11 +87,11 @@ const FAQComponent = () => {
         <div className="loginScreen_input">
           <form>
             <input type="email" placeholder="Adresse email" className="btn_input_login" />
-            <a href="/SignUp1">
+            <Link to="/SignUp1">
               <button className="btn_button_login">
                 Commencez
               </button>
-            </a>
+            </Link>
           </form>
         </div>
       </div>
