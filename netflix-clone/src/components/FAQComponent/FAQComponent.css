@@ -53,11 +53,6 @@ h4 {
 }
 
 
-.headerAccordion{
-    background: black;
-    color:white;
-}
-
 .faqTitre{
     background-color: black;
     color:white;
@@ -100,4 +95,19 @@ h4 {
 }
 
 
+.itemAccordion{
+    background-color: black;
+    color:white;
+}
+
+
+.headerAccordion{
+    background-color: black;
+    color:white;
+}
+
+.bodyAccordion{
+    background-color: black;
+    color:white;
+}
 
