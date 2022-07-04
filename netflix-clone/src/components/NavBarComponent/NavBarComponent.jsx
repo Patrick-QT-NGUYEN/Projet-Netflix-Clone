@@ -32,7 +32,7 @@ const NavBarComponent = () => {
                     </div>
                     <button className="loginScreen_button">
                         <Link to="/SignIn">
-                            <button className='btn_button_login'>
+                            <button className='button_login'>
                                 S'identifier
                             </button>
                         </Link>
