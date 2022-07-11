@@ -38,6 +38,7 @@ const FAQComponent = () => {
               </div>
             </Accordion.Item>
           </div>
+          <div className='itemAccordion'>
           <Accordion.Item eventKey="2">
             <div className='headerAccordion'>
               <Accordion.Header>Où puis-je regarder Netflix ?</Accordion.Header>
@@ -49,6 +50,8 @@ const FAQComponent = () => {
               </Accordion.Body>
             </div>
           </Accordion.Item>
+          </div>
+          <div className='itemAccordion'>
           <Accordion.Item eventKey="3">
             <div className='headerAccordion'>
               <Accordion.Header>Comment puis-je annuler mon forfait ?</Accordion.Header>
@@ -59,6 +62,8 @@ const FAQComponent = () => {
               </Accordion.Body>
             </div>
           </Accordion.Item>
+          </div>
+          <div className='itemAccordion'>
           <Accordion.Item eventKey="4">
             <div className='headerAccordion'>
               <Accordion.Header>Que puis-je regarder sur Netflix ?</Accordion.Header>
@@ -69,6 +74,8 @@ const FAQComponent = () => {
               </Accordion.Body>
             </div>
           </Accordion.Item>
+          </div>
+          <div className='itemAccordion'>
           <Accordion.Item eventKey="5">
             <Accordion.Header>Est-ce que Netflix est adapté aux enfants ?</Accordion.Header>
 
@@ -80,6 +87,7 @@ const FAQComponent = () => {
               </Accordion.Body>
             </div>
           </Accordion.Item>
+          </div>
         </Accordion>
 
         <br />
