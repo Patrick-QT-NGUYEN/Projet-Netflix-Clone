@@ -16,18 +16,19 @@
     background-color: #e50914;
     border: none;
     cursor: pointer;
-    font-weight: 100
+    text-decoration: none;
+    font-weight: 100;
 }
 
 .loginScreen_button {
     position: relative;
-    /*top: 20px;
+    top: 20px;
     right: 20px;
     padding: 10px 20px;
-    font-size: 1rem;*/
+    font-size: 1rem;
     color: #ffffff;
     background-color: #e50914;
-    font-weight: 400;
+    font-weight: 100;
     border: none;
     cursor: pointer;
     text-decoration: none;

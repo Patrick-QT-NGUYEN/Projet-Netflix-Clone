@@ -1,4 +1,5 @@
 import React, { useEffect } from 'react';
+
 import FAQComponent from '../../components/FAQComponent/FAQComponent';
 import PubComponent from '../../components/PubComponent/PubComponent';
 import FooterComponent from '../../components/FooterComponent/FooterComponent';
@@ -13,6 +14,7 @@ const HomeView = () => {
     }, [])
     return (
         <div>
+            
             <div className="loginScreen">
                 <div className="loginScreen_body">
                     <div>
