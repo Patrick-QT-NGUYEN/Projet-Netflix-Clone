@@ -39,54 +39,57 @@ const FAQComponent = () => {
             </Accordion.Item>
           </div>
           <div className='itemAccordion'>
-            <Accordion.Item eventKey="2">
-              <div className='headerAccordion'>
-                <Accordion.Header>Où puis-je regarder Netflix ?</Accordion.Header>
-              </div>
-              <div className='bodyAccordion'>
-                <Accordion.Body>
-                  Netflix, c'est où vous voulez, quand vous voulez. Connectez-vous à votre compte pour regarder Netflix en ligne sur netflix.com depuis votre ordinateur ou tout appareil connecté à Internet avec l'application Netflix, comme les Smart TV, smartphones, tablettes, lecteurs de streaming et consoles de jeu.<br />
-                  Vous pouvez aussi télécharger vos séries préférées avec l'application iOS, Android ou Windows 10. Téléchargez des titres pour les regarder sur votre appareil mobile, même sans connexion Internet. Emportez Netflix partout avec vous.
-                </Accordion.Body>
-              </div>
-            </Accordion.Item>
+
+          <Accordion.Item eventKey="2">
+            <div className='headerAccordion'>
+              <Accordion.Header>Où puis-je regarder Netflix ?</Accordion.Header>
+            </div>
+            <div className='bodyAccordion'>
+              <Accordion.Body>
+                Netflix, c'est où vous voulez, quand vous voulez. Connectez-vous à votre compte pour regarder Netflix en ligne sur netflix.com depuis votre ordinateur ou tout appareil connecté à Internet avec l'application Netflix, comme les Smart TV, smartphones, tablettes, lecteurs de streaming et consoles de jeu.<br />
+                Vous pouvez aussi télécharger vos séries préférées avec l'application iOS, Android ou Windows 10. Téléchargez des titres pour les regarder sur votre appareil mobile, même sans connexion Internet. Emportez Netflix partout avec vous.
+              </Accordion.Body>
+            </div>
+          </Accordion.Item>
           </div>
           <div className='itemAccordion'>
-            <Accordion.Item eventKey="3">
-              <div className='headerAccordion'>
-                <Accordion.Header>Comment puis-je annuler mon forfait ?</Accordion.Header>
-              </div>
-              <div className='bodyAccordion'>
-                <Accordion.Body>
-                  Netflix offre une grande souplesse. Pas de contrat compliqué. Sans engagement. Deux clics suffisent pour annuler votre compte en ligne. Pas de frais d'annulation : ouvrez ou fermez votre compte à tout moment.
-                </Accordion.Body>
-              </div>
-            </Accordion.Item>
+          <Accordion.Item eventKey="3">
+            <div className='headerAccordion'>
+              <Accordion.Header>Comment puis-je annuler mon forfait ?</Accordion.Header>
+            </div>
+            <div className='bodyAccordion'>
+              <Accordion.Body>
+                Netflix offre une grande souplesse. Pas de contrat compliqué. Sans engagement. Deux clics suffisent pour annuler votre compte en ligne. Pas de frais d'annulation : ouvrez ou fermez votre compte à tout moment.
+              </Accordion.Body>
+            </div>
+          </Accordion.Item>
           </div>
           <div className='itemAccordion'>
-            <Accordion.Item eventKey="4">
-              <div className='headerAccordion'>
-                <Accordion.Header>Que puis-je regarder sur Netflix ?</Accordion.Header>
-              </div>
-              <div className='bodyAccordion'>
-                <Accordion.Body>
-                  Netflix propose un vaste catalogue comprenant notamment des longs métrages, des documentaires, des séries TV, des animes et des programmes originaux Netflix primés. Regardez Netflix à volonté, quand vous le voulez.
-                </Accordion.Body>
-              </div>
-            </Accordion.Item>
+          <Accordion.Item eventKey="4">
+            <div className='headerAccordion'>
+              <Accordion.Header>Que puis-je regarder sur Netflix ?</Accordion.Header>
+            </div>
+            <div className='bodyAccordion'>
+              <Accordion.Body>
+                Netflix propose un vaste catalogue comprenant notamment des longs métrages, des documentaires, des séries TV, des animes et des programmes originaux Netflix primés. Regardez Netflix à volonté, quand vous le voulez.
+              </Accordion.Body>
+            </div>
+          </Accordion.Item>
           </div>
           <div className='itemAccordion'>
-            <Accordion.Item eventKey="5">
-              <Accordion.Header>Est-ce que Netflix est adapté aux enfants ?</Accordion.Header>
+          <Accordion.Item eventKey="5">
+            <Accordion.Header>Est-ce que Netflix est adapté aux enfants ?</Accordion.Header>
 
               <div className='bodyAccordion'>
                 <Accordion.Body>
                   Netflix Jeunesse est inclus dans votre abonnement et offre un meilleur contrôle aux parents, ainsi qu'un espace dédié aux enfants, avec des films et des séries destinés à toute la famille.<br />
 
-                  Les profils Enfants comportent des fonctionnalités de contrôle parental avec code PIN permettant de modifier la catégorie d'âge des contenus que vos enfants peuvent regarder et de bloquer des titres spécifiques.
-                </Accordion.Body>
-              </div>
-            </Accordion.Item>
+
+                Les profils Enfants comportent des fonctionnalités de contrôle parental avec code PIN permettant de modifier la catégorie d'âge des contenus que vos enfants peuvent regarder et de bloquer des titres spécifiques.
+              </Accordion.Body>
+            </div>
+          </Accordion.Item>
+
           </div>
         </Accordion>
 

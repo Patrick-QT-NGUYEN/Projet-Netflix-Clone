@@ -33,7 +33,9 @@ const NavBarComponent = () => {
                     </div>
                     <div>
                         <Link to="/SignIn">
+
                             <button className='btn_button_login loginScreen_button'>
+
                                 S'identifier
                             </button>
                         </Link>

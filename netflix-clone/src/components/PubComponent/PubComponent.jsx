@@ -12,14 +12,14 @@ const PubComponent = () => {
                     <p>Regardez Netflix sur votre Smart TV, PlayStation, Xbox, Chromecast, Apple TV, lecteurs Blu-ray et bien plus.
                     </p>
                 </div>
-                    <img src="../../../../img/Netflix_tv.png"
+                    <img src="./img/Netflix_tv.png"
                         alt='Netflix TV' className='imagePub' />
 
             </div>
             
             <div class="jumbotron__content">
                 <div>
-                    <img src="../../../../img/Netflix_mobile.jpg"
+                    <img src="./img/Netflix_mobile.jpg"
                         alt='Netflix mobile' className='imagePub' />
                 </div>
                 <div class="jumbobotron__text">
@@ -34,14 +34,14 @@ const PubComponent = () => {
                     <p>Regardez des films et séries TV en accès illimité sur votre TV, smartphone, tablette et ordinateur, tout compris.</p>
                 </div>
                 <div>
-                    <img src="../../../../img/Netflix_device-pile.png"
+                    <img src="./img/Netflix_device-pile.png"
                         alt='Netflix TV' className='imagePub' />
                 </div>
             </div>
             
             <div class="jumbotron__content">
                 <div>
-                    <img src="../../../../img/Netflix_Jeunesse.png"
+                    <img src="./img/Netflix_Jeunesse.png"
                         alt='Netflix TV' className='imagePub' />
                 </div>
                 <div class="jumbobotron__text">
