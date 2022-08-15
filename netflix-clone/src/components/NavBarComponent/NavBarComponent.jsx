@@ -8,6 +8,7 @@ import {
     Link
 } from 'react-router-dom';
 import HomeView from '../../views/HomeView/HomeView';
+import HomeVideoView from '../../views/HomeVideoView/HomeVideoView';
 import Signin from '../../views/SigninView/Signin';
 import SignUp1 from '../../views/SignUpView/SignUp1';
 import SignUp2 from '../../views/SignUpView/SignUp2';
@@ -30,16 +31,19 @@ const NavBarComponent = () => {
                             <img src="./img/netflix_logo.png" alt="Logo Netflix" className="loginScreen_logo" />
                         </Link>
                     </div>
-                    <button className="loginScreen_button">
+                    <div>
                         <Link to="/SignIn">
-                            <button className='button_login'>
+
+                            <button className='btn_button_login loginScreen_button'>
+
                                 S'identifier
                             </button>
                         </Link>
-                    </button>
+                    </div>
                 </div>
                 <Routes>
                     <Route path="/" element={<HomeView />} />
+                    <Route path="/HomeVideo" element={<HomeVideoView />} />
                     <Route path="/SignIn" element={<Signin />} />
                     <Route path="/SignUp1" element={<SignUp1 />} />
                     <Route path="/SignUp2" element={<SignUp2 />} />

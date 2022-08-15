@@ -39,6 +39,7 @@ const FAQComponent = () => {
             </Accordion.Item>
           </div>
           <div className='itemAccordion'>
+
           <Accordion.Item eventKey="2">
             <div className='headerAccordion'>
               <Accordion.Header>Où puis-je regarder Netflix ?</Accordion.Header>
@@ -79,14 +80,16 @@ const FAQComponent = () => {
           <Accordion.Item eventKey="5">
             <Accordion.Header>Est-ce que Netflix est adapté aux enfants ?</Accordion.Header>
 
-            <div className='bodyAccordion'>
-              <Accordion.Body>
-                Netflix Jeunesse est inclus dans votre abonnement et offre un meilleur contrôle aux parents, ainsi qu'un espace dédié aux enfants, avec des films et des séries destinés à toute la famille.<br />
+              <div className='bodyAccordion'>
+                <Accordion.Body>
+                  Netflix Jeunesse est inclus dans votre abonnement et offre un meilleur contrôle aux parents, ainsi qu'un espace dédié aux enfants, avec des films et des séries destinés à toute la famille.<br />
+
 
                 Les profils Enfants comportent des fonctionnalités de contrôle parental avec code PIN permettant de modifier la catégorie d'âge des contenus que vos enfants peuvent regarder et de bloquer des titres spécifiques.
               </Accordion.Body>
             </div>
           </Accordion.Item>
+
           </div>
         </Accordion>
 
@@ -103,8 +106,8 @@ const FAQComponent = () => {
           </form>
         </div>
       </div>
-    <br/>
-    </div>
+      <br />
+    </div >
   );
 };
 
